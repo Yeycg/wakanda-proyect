@@ -135,3 +135,7 @@ main {
     color: var(--just-white-color);
 }
 
+.header__section-boton-getstated--blue a:hover {
+    color: var(--just-black);
+}
+
