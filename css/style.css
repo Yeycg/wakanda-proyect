@@ -20,4 +20,48 @@ html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 
+
+}
+
+body {
+    
+}
+
+header {
+    width: 100%;
+    min-width: 320px;
+    min-height: 50px;
+    text-align: center;
+    background-color: var(--primary-color);
+    
+}
+
+.principal-header {
+    max-width: 900px;
+    min-width: 320px;
+    min-height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.header_section-logo {
+ 
+}
+
+.header__section-boton-getstated {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--warm-black);
+    border-radius: 16px;
+    background-color: var(--just-white-color);
+
 }
