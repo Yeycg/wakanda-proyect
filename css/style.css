@@ -54,7 +54,7 @@ header {
 }
 
 .header__section-boton-getstated {
-    width: 150px;
+    width: 125px;
     height: 40px;
     text-align: center;
     padding: 10px;
@@ -65,3 +65,17 @@ header {
     background-color: var(--just-white-color);
 
 }
+
+.header__section-boton-getstated a {
+ text-decoration: none;
+ color: var(--just-black);
+}
+
+.header__section-boton-getstated:hover {
+    background-color: #000;
+}
+
+.header__section-boton-getstated a:hover {
+    color: var(--just-white-color);
+}
+
