@@ -1,0 +1,24 @@
+.hero-image-1 {
+    position: absolute;
+    width: 700px;
+    margin: auto;
+
+}
+
+.hero-image-1__text-section {
+    position: relative;
+    top: -360px;
+}
+
+.hero-image-1__text-section {
+    width: 350px;
+    margin-left: 20px;
+
+}
+
+
+.hero-image-1__text-section h1 {
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 30px;
+}

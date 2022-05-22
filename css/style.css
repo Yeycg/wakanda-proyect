@@ -83,8 +83,9 @@ main {
     height: auto;
 }
 
-.hero-image-1__img-1 {
+.hero-image-1 {
     width: 320px;
+    margin: auto;
 
 }
 
