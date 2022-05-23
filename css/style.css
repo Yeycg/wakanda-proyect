@@ -140,3 +140,21 @@ main {
     color: var(--just-black);
 }
 
+
+.parthers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 50px;
+
+}
+
+.parthers div {
+    margin: 16px 16px;
+    padding: 5px;
+}
+
+
+
