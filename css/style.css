@@ -364,5 +364,32 @@ h1 {
 }
 
 
+.testimonios {
+    width: 100%;
+
+}
+
+.testimonios p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.testimonios h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonios__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+
+}
+
+
 
 
