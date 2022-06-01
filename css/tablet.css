@@ -45,3 +45,19 @@
 .steps div img {
     width: 200px;
 }
+
+.testimonios__cards {
+    width: 90%;
+    margin-left: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat(3 , 1fr);
+
+
+}
+
+.testimonios__cards article {
+    margin-right: 48px;
+    margin-left: 32px;
+    
+}

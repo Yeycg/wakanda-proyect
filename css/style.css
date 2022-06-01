@@ -385,6 +385,7 @@ h1 {
 
 .testimonios__cards {
     padding: 16px;
+    width: 100%;
     margin-bottom: 16px;
     text-align: left;
     font-size: 1.2rem;
@@ -438,6 +439,41 @@ h1 {
     background-size: cover;
 }
 
+.item__icon-3 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/Avatar\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item__icon-4 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/Avatar\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item__icon-5 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/Avatar\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item__icon-6 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/Avatar\ \(6\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
