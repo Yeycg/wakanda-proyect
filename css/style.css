@@ -369,7 +369,7 @@ h1 {
 
 }
 
-.testimonios p {
+.testimonios__title p {
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 2;
@@ -384,11 +384,60 @@ h1 {
 }
 
 .testimonios__cards {
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 6fr;
+    grid-template-rows: repeat(6 , 1fr);
+
 
 }
+
+.testimonios__cards article {
+    margin-bottom: 32px;
+}
+
+.items__container div {
+    display: inline-block;
+    position: relative;
+    left: 12px;
+    top: -10px;
+    
+    
+
+}
+
+.testimonios__stars {
+    display: inline-block;
+    width: 100px;
+    height: 16px;
+    background-image: url(/assets/Star.png);
+    background-repeat: no-repeat;
+
+}
+
+.item__icon-1 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/Avatar-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item__icon-2 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/Avatar\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 
