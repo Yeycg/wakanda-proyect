@@ -476,5 +476,68 @@ h1 {
 }
 
 
+.call-to-action {
+    width: 100%;
+    background-color: var(--just-white-color);
+}
+
+.action__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: var(--just-white-color);
+    line-height: 1.5;
+}
 
 
+.action__container {
+    width: 100%;
+    margin: auto;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.action__container img {
+    width: 200px;
+}
+
+.action__container p {
+    margin-top: 16px;
+
+}
+
+.action__container h2 {
+    width: 90%;
+    text-align: center;
+    margin-left: 16px;
+}
+
+.botton-call-to-action {
+    width: 100px;
+    height: 25px;
+    margin: 16px auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: var(--just-white-color);
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+
+
+}
+
+.call-to-action p {
+    padding-top: 4px;
+}
+
+.botton-call-to-action a {
+text-decoration: none;
+color: var(--just-black);
+
+}
+
+.botton-call-to-action a:hover {
+    color: var(--primary-color);
+}
