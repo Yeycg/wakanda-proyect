@@ -475,6 +475,7 @@ h1 {
 .call-to-action {
     width: 100%;
     background-color: var(--just-white-color);
+    margin-bottom: 48px;
 }
 
 .action__container {
@@ -536,4 +537,79 @@ color: var(--just-black);
 
 .botton-call-to-action a:hover {
     color: var(--primary-color);
+}
+
+footer {
+    width: 100%;
+    background-color: var(--just-black);
+    color: var(--just-white-color);
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    min-width: 320px;
+    margin: auto;
+    height: auto;
+    padding: 16px;
+}
+
+.footer__social-media {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3 , 1fr);
+    justify-content: center;
+    justify-items: center;
+    width: 300px;
+    margin: 16px auto;
+}
+
+.footer__social-media div img {
+    width: 150px;
+    margin: 16px auto;
+
+}
+
+.footer__social-media ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.footer__social-media ul li {
+    margin-left: 16px;
+}
+
+
+
+.footer__links {
+width: 300px;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+font-size: 1.2rem;
+line-height: 1.5;
+}
+
+.footer__links div p {
+    font-weight: bold;
+}
+
+.footer__links div ul {
+    list-style-type: none;
+}
+
+.footer__susbcribe {
+    margin: auto;
+}
+
+.footer__susbcribe h3 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
