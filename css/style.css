@@ -19,15 +19,10 @@
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
-
-
-
 }
 
-body {
-    
-    
-}
+
+
 
 header {
     width: 100%;
@@ -221,7 +216,7 @@ h1 {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url(/assets/Icon.png);
+    background-image: url(assets/Icon.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -231,7 +226,7 @@ h1 {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url(/assets/icon-2.png);
+    background-image: url(assets/icon-2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -241,7 +236,7 @@ h1 {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url(/assets/Icon-3.png);
+    background-image: url(assets/Icon-3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -417,7 +412,7 @@ h1 {
     display: inline-block;
     width: 100px;
     height: 16px;
-    background-image: url(/assets/Star.png);
+    background-image: url(assets/Star.png);
     background-repeat: no-repeat;
 
 }
@@ -426,7 +421,7 @@ h1 {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url(/assets/Avatar-1.png);
+    background-image: url(assets/Avatar-1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -435,7 +430,7 @@ h1 {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url(/assets/Avatar\ \(2\).png);
+    background-image: url(assets/Avatar\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -444,7 +439,7 @@ h1 {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url(/assets/Avatar\ \(3\).png);
+    background-image: url(assets/Avatar\ \(3\).png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -453,7 +448,7 @@ h1 {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url(/assets/Avatar\ \(4\).png);
+    background-image: url(assets/Avatar\ \(4\).png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -462,7 +457,7 @@ h1 {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url(/assets/Avatar\ \(5\).png);
+    background-image: url(assets/Avatar\ \(5\).png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -471,7 +466,7 @@ h1 {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url(/assets/Avatar\ \(6\).png);
+    background-image: url(assets/Avatar\ \(6\).png);
     background-repeat: no-repeat;
     background-size: cover;
 }
