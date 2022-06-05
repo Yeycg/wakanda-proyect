@@ -613,3 +613,33 @@ line-height: 1.5;
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
+ .input-newsletter {
+     position: relative;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9fa;
+    border-radius: 4px;
+    color: var(--just-white-color);
+}
+
+.input-newsletter input {
+ background-color: #f9f9fa;
+  border: none;
+  outline: none;
+
+}
+
+.icon-telegram {
+    position: absolute;
+    right: 3px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url( ../assets/icon-newsletter.png );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
