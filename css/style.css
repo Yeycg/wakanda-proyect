@@ -90,6 +90,7 @@ h1 {
 .hero-image-1 {
     width: 320px;
     margin: auto;
+    margin-bottom: 48px;
 
 }
 
@@ -151,13 +152,17 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
-    padding: 50px;
+    padding: 16px;
 
 }
 
 .parthers div {
     margin: 16px 16px;
     padding: 5px;
+}
+
+.parthers div img {
+    width: 80px;
 }
 
 .benefits {
@@ -209,7 +214,7 @@ h1 {
 
 .benefits__items-container div {
     text-align: center;
-    margin: 50px;
+    margin: 16px;
 }
 
 .benefits__item-1 span {
@@ -242,12 +247,18 @@ h1 {
     background-position: center;
 }
 
-.steps {
+.steps {    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
    margin: 16px;
 }
 
 .steps div img {
-    width: 100%;
+    width: 150px;
     margin-bottom: 16px;
 }
 
@@ -498,6 +509,7 @@ h1 {
 
 .action__container img {
     width: 200px;
+    margin-top: 16px;
 }
 
 .action__container p {

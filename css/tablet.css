@@ -1,7 +1,6 @@
 .hero-image-1 {
     position: relative;
     width: 700px;
-    margin: auto;
     height: 400px;
 
 }
@@ -39,11 +38,11 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    margin: 32px;
+    margin: 32px 16px 32px 16px;
 }
 
 .steps div img {
-    width: 200px;
+    width: 240px;
 }
 
 .testimonios__cards {
